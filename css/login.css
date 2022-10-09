@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Lucida Console", monospace;
+    height: 100vh;
+    /*弹性布局 居部显示*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*溢出隐藏*/
+    overflow: hidden;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #deaa88;
+    height: 425px;
+    width: 350px;
+    border-radius: 50px;
+    border-style: dashed;
+    transition: 0.5s;
+}
+
+.card__cover img{
+    margin: 23px;
+    height: 150px;
+    width: 250px;
+}
+
+.card__content h1{
+    font-size: 40px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+    
+    transition: 1s ease-in-out;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+    opacity: 1;
+
+    transition: opacity 0.5s;
+}
+
+.form input{
+    outline: none;
+    border: 1px solid rgba(193,154,107,0.4);
+    background-color: rgba(193,154,107,0.2);
+    width: 250px;
+    padding: 10px 15px;
+    border-radius: 12px;
+    margin: 0 auto 10px auto;
+    text-align: center;
+    color: #c19a6b;
+    font-size: 15px;
+    transition: 0.25s;
+}
+
+.form input::placeholder{
+    color: #c19a6b;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.form input:hover{
+    background-color: rgba(247,231,206,0.4);
+}
+
+.form input:focus{
+    background-color: #c19a6b;
+    width: 300px;
+    color: #fff;
+}
+
+.btn-login{
+    outline: none;
+    background-color: #f7e7ce;
+    color: #c19a6b;
+    border: none;
+    width: 250px;
+    padding: 10px 15px;
+    border-radius: 12px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.btn-login:hover{
+    background-color: #fad6a5;
+}
