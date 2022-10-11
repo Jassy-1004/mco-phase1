@@ -92,99 +92,82 @@ a:hover{
     color: #fad6a5;
 }
 
-.display-photo{
-    border-radius: 50%;
-    width: 300px;
-
-}
-
-.profile{
+.main_div{
     display: flex;
+    height: 86vh;
+    margin-top: 45;
+    margin-bottom: 0;
+    background: #fff;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
-}
-
-.profile-picture{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 10px 0 0 0;
-    margin-left: 30px;
-    width: 400px;
-    height: 400px;
-    background-color: #fad6a5;
-    border-radius: 5px 0 0 5px;
-    padding: 5px;
-}
-
-.information{
-    display: flex;
-    flex-direction: column;
-    margin: 10px 0 0 0;
-    width: 800px;
-    height: 400px;
-    background-color: #fad6a5;
-    border-radius: 0 5px 5px 0;
-    padding: 5px;
-    word-wrap:normal;
-}
-
-.username{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    font-size: 32;
-    margin-left: 15px;
-    font-weight: 500;
-    width: 775px;
+    overflow: hidden;
 }
 
 .edit{
-    width: 30;
-    height: 30;
-    font-size: 15px;
-    margin: 10px;
-    font-size: 15;
-    color: #44291C;
-    background-color: #fad6a5;
-    text-decoration: none;
-    justify-content: center;
-    padding: 5;
-    border-radius: 10%;
+    height: 680;
+    width: 350px;
+    background: #fad6a5;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
 }
 
-.edit:hover{
-    background-color: #44291C;
-    color: #fad6a5;
+.title-edit{
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 35;
+    text-align: center;
 }
 
-.bio{
-    font-size: 20;
-    margin-left: 15px;
-    padding-right: 25;
-    width: 775px;
-    height: 175px;
+form{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 25px;
 }
 
-.bio p{
-    font-size: 15;
-    padding-right: 20;
-    text-align: justify;
+form .input_box{
+    height: 70px;
+    width: 100%;
+    position: relative;
+    margin-top: 15px;
+}
+
+.input_box input{
+    height: 50;
+    width: 100%;
+    outline: none;
+    font-size: 17px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    transition: all 0.3s ease;
+}
+
+.input_box input:focus{
+    border-color: #fad6a5;
+}
+
+.genre-checkbox{
+    background-color: #fff;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-bottom: 10px;
 }
 
 .genre{
-    font-size: 20;
-    margin-left: 15px;
-    padding-right: 15;
-    width: 775px;
-    height: 50px;
+    height: 310;
 }
 
-.genre ul li{
-    margin-left: 20px;
-    list-style-type:disc ;
-    font-size: 15;
-    padding-right: 20;
-    text-align: justify;
+.genre-checkbox input{
+    height: min-content;
+    width: 20;
+}
+
+.button{
+    cursor:pointer;
+    display: flex;
+    
 }
