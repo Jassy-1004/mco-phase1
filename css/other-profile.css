@@ -1,7 +1,8 @@
 *{
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
 }
 
 .navbar{
@@ -11,6 +12,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    z-index: 2;
 }
 
 ul{
@@ -92,90 +94,109 @@ a:hover{
     color: #fad6a5;
 }
 
-.main_div{
+.profile{
     display: flex;
-    height: 100vh;
-    margin-top: 45;
-    margin-bottom: 0;
-    background: #fff;
-    flex-direction: row;
-    justify-content: center;
+    height: 400px;
+    place-items: center;
     overflow: hidden;
-}
-
-.edit{
-    height: 780;
-    width: 350px;
-    background: #fad6a5;
-    padding: 30px;
-    border-radius: 5px;
-    box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
-}
-
-.title-edit{
-    color: black;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 35;
-    text-align: center;
-}
-
-form{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin-top: 25px;
-}
-
-form .input_box{
-    height: 70px;
-    width: 100%;
-    position: relative;
-    margin-top: 15px;
-}
-
-.input_box input{
-    height: 50;
-    width: 100%;
-    outline: none;
-    font-size: 17px;
-    padding-left: 10px;
-    border-radius: 5px;
-    border: 1px solid lightgray;
-    transition: all 0.3s ease;
-}
-
-.input_box input:focus{
-    border-color: #fad6a5;
-}
-
-.file input{
-    outline: none;
-    border: none;
+    word-wrap: break-word;
+    padding: 100;
+    margin-left: 50;
+    margin-right: 50;
     margin-top: 10;
-    padding: 0;
-    height: 30;
+    
 }
 
-.genre-checkbox{
-    background-color: #fff;
-    border-radius: 5px;
+.profile-picture{
     display: flex;
-    flex-wrap: wrap;
-    padding-left: 10px;
-    padding-top: 10px;
-    padding-right: 5px;
-    padding-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+    width: 400px;
+    height: 400px;
+}
+
+.display-photo{
+    border-radius: 50%;
+    width: 300px;
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0 0 0;
+    width: 800px;
+    height: 400px;
+    background-color: #fad6a5;
+    border-radius: 3%;
+    padding: 5px;
+    word-wrap:normal;
+}
+
+.username{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 32;
+    margin-left: 15px;
+    font-weight: 500;
+    width: 775px;
+}
+
+.bio{
+    font-size: 20;
+    margin-left: 15px;
+    padding-right: 25;
+    width: 775px;
+    height: 175px;
+}
+
+.bio p{
+    font-size: 15;
+    padding-right: 20;
+    text-align: justify;
 }
 
 .genre{
-    height: 330;
+    font-size: 20;
+    margin-left: 15px;
+    padding-right: 15;
+    width: 775px;
+    height: 50px;
 }
 
-.genre-checkbox input{
-    height: min-content;
-    width: 20;
+.genre ul li{
+    margin-left: 20px;
+    list-style-type:disc ;
+    font-size: 15;
+    padding-right: 20;
+    text-align: justify;
 }
 
-.button{
-    cursor:pointer;
+.accordion{
+    margin: 150;
+    margin-top: 50;
+}
+
+.card-layout {
     display: flex;
-    
+
+    /* Put a card in the next row when previous cards take all width */
+    flex-wrap: wrap;
+
+    margin-left: -0.25rem;
+    margin-right: -0.25rem;
+}
+
+.card-layout__item {
+    flex-basis: 20%;
+
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+}
+
+.img{
+    margin-top: 15;
+    width: 200;
+    height: 300;
 }
