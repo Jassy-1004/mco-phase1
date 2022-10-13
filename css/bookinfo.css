@@ -141,14 +141,14 @@ a:hover{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 1005;
+    width: 870;
     
 }
 
 .info .title{
     font-weight: bold;
     font-family: serif;
-    font-size: 45;
+    font-size: 30;
     color: #44291C;
 }
 
@@ -171,7 +171,7 @@ a:hover{
 
 .info .author, .info .publi-date, .info .genre{
     margin-left: 10;
-    font-size: 18;
+    font-size: 15;
     color: #44291C;
 }
 
@@ -187,7 +187,7 @@ a:hover{
 }
 
 .synopsis{
-    width: 1000;
+    width: 850;
     margin-left: 10;
     margin-right: 20;
     text-align: justify;
