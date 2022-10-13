@@ -5,6 +5,10 @@
     font-family: 'Poppins',sans-serif;
 }
 
+html, body{
+    background-color: #fad6a5;
+}
+
 .navbar{
     background-color: #453823;
     position: sticky;
@@ -127,7 +131,7 @@ a:hover{
     margin: 10px 0 0 0;
     width: 800px;
     height: 400px;
-    background-color: #fad6a5;
+    background-color: #fff;
     border-radius: 3%;
     padding: 5px;
     word-wrap:normal;
@@ -150,7 +154,6 @@ a:hover{
     margin: 10px;
     font-size: 15;
     color: #44291C;
-    background-color: #fad6a5;
     text-decoration: none;
     justify-content: center;
     padding: 5;
@@ -198,6 +201,11 @@ a:hover{
     margin-bottom: 0;
 }
 
+.accordion-button{
+    font-family: serif;
+    font-weight: bold;
+}
+
 .card-layout {
     display: flex;
 
@@ -226,6 +234,11 @@ a:hover{
     margin-top: 50;
 }
 
+h3{
+    font-family: serif;
+    font-weight: bold;
+}
+
 .cards{
     z-index: 1;
     display: flex;
@@ -235,7 +248,7 @@ a:hover{
 
 .card{
     width: 1250;
-    height: 1000;
+    height: auto;
 }
 
 .card:nth-child(2), .card:nth-child(3){
@@ -245,16 +258,16 @@ a:hover{
 }
 
 .card-img-top{
-    width: 437; 
-    height: 725;
+    width: 383; 
+    height: 650;
 }
 
 .card-title{
-    font-size: 25;
+    font-size: 20;
     font-weight: bold;
 }
 
 .card-text{
-    font-size: 15;
+    font-size: 13;
     text-align: justify;
 }

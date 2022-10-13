@@ -1,12 +1,14 @@
 *{
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
 }
 
-html, body{
-    height: auto;
+html,body{
+    height: 100%;
     place-items: center;
+    background: #fad6a5;
 }
 
 .navbar{
@@ -37,11 +39,12 @@ li {
     color: #fad6a5;
     text-decoration: none;
     margin: 5px;
+    font-weight: bold;
 }
 
 a:hover{
     text-decoration: underline;
-    color: #fad6a5;
+    color: #44291C;
 }
 
 .search {
@@ -98,88 +101,64 @@ a:hover{
     color: #fad6a5;
 }
 
-.main_div{
-    display: flex;
-    padding-top: 20;
-    padding-bottom: 20;
-    background: #fad6a5;
-    flex-direction: row;
-    justify-content: center;
-    overflow: hidden;
-}
-
-.edit{
-    height: 690;
-    width: 300px;
-    background: #fff;
-    padding: 30px;
-    border-radius: 5px;
-    box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
-    margin: 10;
-}
-
-.title-edit{
-    color: black;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 20;
-    text-align: center;
-}
-
-form{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin-top: 5px;
-}
-
-form .input_box{
-    height: 50px;
-    width: 100%;
-    position: relative;
-    margin-top: 15px;
-}
-
-.input_box input{
-    height: 30;
-    width: 100%;
-    outline: none;
-    font-size: 15px;
-    padding-left: 10px;
-    border-radius: 5px;
-    border: 1px solid lightgray;
-    transition: all 0.3s ease;
-}
-
-.input_box input:focus{
-    border-color: #fad6a5;
-}
-
-.file input{
-    outline: none;
-    border: none;
-    margin-top: 10;
-    padding: 0;
-    height: 30;
-}
-
-.genre-checkbox{
-    background-color: #fff;
-    border-radius: 5px;
-    display: flex;
-    flex-wrap: wrap;
-    padding-top: 10px;
-    padding-right: 5px;
-    padding-bottom: 10px;
-}
-
 .genre{
-    height: 300;
-    font-size: 15;
+    background-color: antiquewhite;
+    margin: 30 30 0 30;
+    text-align: center;
+    font-size: 30;
+    font-family: serif;
+    font-weight: bold;
 }
 
-.genre-checkbox input{
-    height: min-content;
-    width: 20;
+.genre-books{
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    margin: 0 30 0 30;
+    padding: 0 10 0 10;
+    border-radius: 3px 3px 0 0;
 }
 
-.button{
-    margin: 5 0 5 0;
+.book-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.book{
+    flex-wrap: wrap;
+    margin: 30;
+    background-color: #fad6a5;
+}
+
+.book-cover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.book-cover img{
+    width: 170;
+    height: 210;
+}
+
+.book-title a {
+    font-size: 14;
+    margin: 5;
+    color: #453823;
+    text-decoration: none;
+}
+
+.book-title a:hover {
+    color: #453823;
+    text-decoration: underline;
+}
+
+.foot{
+    height: 25;
 }

@@ -33,11 +33,17 @@ li {
     color: #fad6a5;
     text-decoration: none;
     margin: 5px;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: #44291C;
 }
 
 a:hover{
     text-decoration: underline;
-    color: #fad6a5;
+    color: #44291C;
 }
 
 .search {
@@ -186,6 +192,12 @@ a:hover{
 .accordion{
     margin: 150;
     margin-top: 50;
+    margin-bottom: 0;
+}
+
+.accordion-button{
+    font-family: serif;
+    font-weight: bold;
 }
 
 .card-layout {
