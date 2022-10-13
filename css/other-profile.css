@@ -133,14 +133,24 @@ a:hover{
     word-wrap:normal;
 }
 
-.username{
+.username-signup{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+}
+
+.username{
     font-size: 32;
     margin-left: 15px;
     font-weight: 500;
     width: 775px;
+}
+
+.Sign-up{
+    font-size: 15;
+    width: 350;
+    display: flex;
+    justify-content: flex-end;
+    color:midnightblue; 
 }
 
 .bio{
