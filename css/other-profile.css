@@ -5,6 +5,12 @@
     font-family: 'Poppins',sans-serif;
 }
 
+html,body{
+    height: 100%;
+    place-items: center;
+    background: #fad6a5;
+}
+
 .navbar{
     background-color: #453823;
     position: sticky;
@@ -33,7 +39,6 @@ li {
     color: #fad6a5;
     text-decoration: none;
     margin: 5px;
-    font-weight: bold;
 }
 
 a{
@@ -133,7 +138,7 @@ a:hover{
     margin: 10px 0 0 0;
     width: 800px;
     height: 400px;
-    background-color: #fad6a5;
+    background-color:antiquewhite ;
     border-radius: 3%;
     padding: 5px;
     word-wrap:normal;
@@ -221,4 +226,8 @@ a:hover{
     margin-top: 15;
     width: 200;
     height: 300;
+}
+
+.foot{
+    height: 10;
 }
