@@ -17,9 +17,7 @@
 
 <body>
     <nav class="navbar">
-        <div>
-            <a href="about.html" class="title">Literari</a>
-        </div>
+        <div class="title">Literari</div>
         <ul>
             <li>
                 <a href="profilePage.html"><button class="btn1"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-house-fill" viewBox="0 0 16 16">
@@ -36,7 +34,7 @@
             <li>
                 <div class="form">
                 <input class="search" type="search" placeholder="Search">
-                <a href="#"><button class="btn"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                <a href="searchPage.html"><button class="btn"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
                     <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
                 </svg></button></a>
                 </div>
@@ -79,25 +77,27 @@ Compassionate, dramatic, and deeply moving, "To Kill A Mockingbird" takes reader
                 
                     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div class="modal-dialog modal-dialog-centered">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                <h1 class="modal-title fs-5" id="exampleModalLabel">Change Status</h1>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            <form action="bookinfo1(queens-gambit).html">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Change Status</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <label for="new-status">Choose a new status:</label>
+                                        <select name="new-status" id="new-status">
+                                            <option value="no-status">No status</option>
+                                            <option value="plan-on-reading">Plan on Reading</option>
+                                            <option value="currently-reading">Currently Reading</option>
+                                            <option value="finished-reading">Finished Reading</option>
+                                        </select> 
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btnclose" data-bs-dismiss="modal">Close</button>
+                                        <a href=""><button type="button" class="btn btn-save">Save changes</button></a>
+                                    </div>
                                 </div>
-                                <div class="modal-body">
-                                    <label for="new-status">Choose a new status:</label>
-                                    <select name="new-status" id="new-status">
-                                        <option value="no-status">No status</option>
-                                        <option value="plan-on-reading">Plan on Reading</option>
-                                        <option value="currently-reading">Currently Reading</option>
-                                        <option value="finished-reading">Finished Reading</option>
-                                    </select> 
-                                </div>
-                                <div class="modal-footer">
-                                <button type="button" class="btn btnclose" data-bs-dismiss="modal">Close</button>
-                                <a href=""><button type="button" class="btn btn-save">Save changes</button></a>
-                                </div>
-                            </div>
+                            </form>
                         </div>
                     </div>
                 </div>
