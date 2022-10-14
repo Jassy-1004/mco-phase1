@@ -43,12 +43,12 @@ li {
 
 a{
     text-decoration: none;
-    color: #453823;
+    color: #44291C;
 }
 
 a:hover{
     text-decoration: underline;
-    color: #453823;
+    color: #44291C;
 }
 
 .search {
@@ -280,5 +280,5 @@ h3{
 }
 
 .foot{
-    height:10;
+    height: 10;
 }
