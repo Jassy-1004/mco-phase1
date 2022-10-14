@@ -41,9 +41,14 @@ li {
     margin: 5px;
 }
 
+a{
+    text-decoration: none;
+    color: #453823;
+}
+
 a:hover{
     text-decoration: underline;
-    color: #fad6a5;
+    color: #453823;
 }
 
 .search {
