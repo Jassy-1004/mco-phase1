@@ -1,22 +1,77 @@
 *{
     margin: 0;
     padding: 0;
+    text-decoration: none;
     box-sizing: border-box;
-    font-family: 'Poppins',sans-serif;
+    list-style: none;
+    font-family: 'Poppins',sans-serif;   
 }
 
-html,body{
-    height: 100%;
-    place-items: center;
-    background: #fad6a5;
+body{
+    font-family: 'Poppins',sans-serif;   
+    background-color: #fad6a5;
+}
+
+a{
+    font-size: small;
 }
 
 h1{
+    font-family: 'Poppins',sans-serif;
+    padding: 30px 100px;
     text-align: center;
-    padding-top: 10px;
+}
+
+h2{
+    text-align: center;
+    padding: 20px;
+}
+.verticalline{
+    border-left: 1px solid #987554;
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 180;
+  }
+
+  .title{
+    font-family: serif;
+    font-size: 50px;
+    color: #fad6a5;
+    text-decoration: none;
+    margin: 5px;
     font-weight: bold;
 }
 
+  button {
+    background-color: #987554; /* Green */
+    border: none;
+    color: white;
+    padding: 14px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+  }
+
+  button:hover{
+    background: #C4A484;
+    transition: .5s;
+  }
+
+  hr { 
+    display: block;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-style: inset 1px solid #987554;;
+    border-width: 1px;
+    border-color: #987554;
+  } 
+/* NAV BAR */
 .navbar{
     background-color: #453823;
     position: sticky;
@@ -45,12 +100,11 @@ li {
     color: #fad6a5;
     text-decoration: none;
     margin: 5px;
-    font-weight: bold;
 }
 
 a:hover{
     text-decoration: underline;
-    color: #44291C;
+    color: #fad6a5;
 }
 
 .search {
@@ -107,66 +161,9 @@ a:hover{
     color: #fad6a5;
 }
 
-.genre{
-    background-color: antiquewhite;
-    margin: 30 30 0 30;
+
+/* login and sign up button */
+
+.login-container{
     text-align: center;
-    font-size: 30;
-    font-family: serif;
-    font-weight: bold;
 }
-
-.genre-books{
-    background-color: antiquewhite;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    text-align: center;
-    margin: 0 30 0 30;
-    padding: 0 10 0 10;
-    border-radius: 3px 3px 0 0;
-}
-
-.book-list{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: center;
-}
-
-.book{
-    flex-wrap: wrap;
-    margin: 30;
-    background-color: #fad6a5;
-}
-
-.book-cover {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.book-cover img{
-    width: 170;
-    height: 210;
-}
-
-.book-title a {
-    font-size: 14;
-    margin: 5;
-    color: #453823;
-    text-decoration: none;
-}
-
-.book-title a:hover {
-    color: #453823;
-    text-decoration: underline;
-}
-
-.foot{
-    height: 25;
-}
-
-

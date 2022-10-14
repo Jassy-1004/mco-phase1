@@ -41,14 +41,9 @@ li {
     margin: 5px;
 }
 
-a{
-    text-decoration: none;
-    color: #44291C;
-}
-
 a:hover{
     text-decoration: underline;
-    color: #44291C;
+    color: #fad6a5;
 }
 
 .search {
@@ -277,8 +272,4 @@ h3{
 .card-text{
     font-size: 13;
     text-align: justify;
-}
-
-.foot{
-    height: 10;
 }
